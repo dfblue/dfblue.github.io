@@ -1,10 +1,8 @@
 <ul class="posts-list">
     {% for post in site.posts %}
     <li>
-        
-            <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-        
-            {{ post.date | date_to_string: "ordinal", "US"}} by {{ post.author }}
-        </li>
+        <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+        {{ post.date | date_to_string: "ordinal", "US"}} by {{ post.author }}
+    </li>
     {% endfor %}
 </ul>

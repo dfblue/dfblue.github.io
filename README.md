@@ -18,4 +18,4 @@ Website runs on github pages.
 - `gem install jekyll bundler`
 - `bundle update`
 - `bundle install`
-- `gem install jekyll bundler`
+- `bundle exec jekyll serve --livereload`
