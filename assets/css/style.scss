@@ -77,11 +77,18 @@ footer {
     z-index: -100;
 }
 
+.post-header-image {
+    object-fit: cover;
+    object-position: left top;
+    height: 15rem;
+    width: 100%;
+}
+
 .post-categories {
     font-size: 0.8rem;
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 1rem 0 1rem 0;
     overflow: hidden;
     
     li {
@@ -98,7 +105,11 @@ footer {
 .posts-list {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 1rem 0 0 0;
+
+    li {
+        margin-bottom: 3rem;
+    }
 }
 
 .site-footer {
