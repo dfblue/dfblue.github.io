@@ -1,0 +1,17 @@
+<!-- Customize this layout to affect the whole site -->
+<!-- Or add other layouts for blog post, reaseach papers, etc -->
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+
+{% include head.html %}
+
+<body>
+    {% include nav.html %}
+    {% include header.html %}
+    <main id="content" class="main-content" role="main">
+        {{ content }}
+    </main>
+    {% include footer.html %}
+</body>
+
+</html>
