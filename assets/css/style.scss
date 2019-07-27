@@ -1,0 +1,112 @@
+---
+---
+
+// If you'd like to change the theme's Sass variables, you must set new values before the @import line.
+
+// Override theme Sass variables if needed
+@import 'variableOverrides';
+
+@import "{{ site.theme }}";
+
+// add custom css / sass here
+
+@import url('https://fonts.googleapis.com/css?family=Karla|Space+Mono:400i,700,700i&display=swap');
+
+// https://www.youtube.com/watch?v=c64pZtavENY
+
+body {
+    font-family: 'Karla', sans-serif;
+}
+
+nav {
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+    a {
+        border-color: $body-text-color;
+        border-width: 1px;
+        border-style: solid;
+        border-radius: $border-radius; 
+        color: $body-text-color;
+        padding: $border-padding * 2;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0.5rem !important;
+    margin-top: 0.5rem !important;
+
+    a {
+        color: $section-headings-color
+    }
+}
+
+h1, h2 {
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+}
+
+h2 {
+    font-style: italic;
+}
+
+h3 {
+    margin-bottom: 0.5rem !important;
+}
+
+footer {
+    text-align: center;
+}
+
+.page-header {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) );
+}
+
+#hero-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: auto;
+    width: 100%;
+    z-index: -100;
+}
+
+.post-categories {
+    font-size: 0.8rem;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+    li {
+        background-color: #12C0E6;
+        float: left;
+        display: block;
+        color: white;
+        margin-right: 0.5rem;
+        padding: $border-padding;
+        border-radius: $border-radius;
+    }
+}
+
+.posts-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.site-footer {
+    margin-bottom: 2rem;
+}
+
+ol {
+    li {
+        margin-bottom: 1rem;
+    }
+}
