@@ -9,6 +9,8 @@ categories: [tutorial, guide, how to, deepfacelab, deepfakes]
 
 > DeepFaceLab version 2019-06-20
 
+> This tutorial is [open source](https://github.com/dfblue/dfblue.github.io/issues)!
+
 ## Source and destination videos requirements
 
 * High resolution (4k webm is best, lower than 1080p is not recommended)
@@ -18,7 +20,7 @@ categories: [tutorial, guide, how to, deepfacelab, deepfakes]
 * Faces should somewhat match (beard, hat, hair, skin color, shape, glasses)
 * Need at least 2 mins of good quality video, interview videos work well
 
-## Extracting Faces from source video
+## Extracting faces from source video
 
 * Name the source video `data_src` and place it in the `\workspace` folder.
     * Most formats that `ffmpeg` supports will work
@@ -39,7 +41,7 @@ categories: [tutorial, guide, how to, deepfacelab, deepfakes]
     * Look for faces where landmarks are misaligned and delete the `_debug` and original images for those
     * Once you’re done, delete all  `_debug` images by using the search bar to filter for `_debug`
 
-## Extracting Faces from destination video
+## Extracting faces from destination video
 
 You may choose to either extract from (1) the final video clip you want, or (2) one that is cut to include only the face you want to swap. If you choose 1, you may have to spend more time cleaning the extracted faces. If you choose 2 you will have to edit back the final video (and audio) after the swap.
 
@@ -282,9 +284,9 @@ Before converting, you can make a timelapse of the preview history (if you saved
   </tr>
 </table>
 
-* While conversion is running, you can preview the final images `data_dst\merged` folder to make sure it’s correct. If it’s not just close the convert window, delete `/merged` and start conversion again.
+* While conversion is running, you can preview the final images `data_dst\merged` folder to make sure it’s correct. If it’s not, just close the convert window, delete `/merged` and start conversion again.
 * Run `8) converted to mp4`
-    * Bitrate of 3-8 is sufficient
+    * Bitrate of 3-8 is sufficient for most
 
 ## Done 🤡
 
