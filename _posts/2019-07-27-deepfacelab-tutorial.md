@@ -218,7 +218,7 @@ Before converting, you can make a timelapse of the preview history (if you saved
 
 > cd \workspace\model\SAE_history
 
-> ffmpeg -r 120 -f image2 -s 1280x720 -i %06d.jpg -vcodec libx264 -crf 25 -pix_fmt yuv420p history.mp4
+> ffmpeg -r 120 -f image2 -s 1280x720 -i %05d0.jpg -vcodec libx264 -crf 25 -pix_fmt yuv420p history.mp4
 
 ```
 
