@@ -2,7 +2,7 @@
 layout: post
 title:  "5 reasons why Deepfakes will lead to believable fake news"
 author: "DeepFakeBlue Team"
-header_image: https://i.imgur.com/qAPFDRr.jpg
+image: https://i.imgur.com/qAPFDRr.jpg
 date:   2019-07-23 16:59:38 -0700
 categories: [blog, fake news]
 ---
