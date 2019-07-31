@@ -30,6 +30,7 @@ github_username:  dfblue
 google_analytics: UA-144274503-1
 
 # Build settings
+future: false
 markdown: kramdown
 theme: jekyll-theme-cayman
 plugins:

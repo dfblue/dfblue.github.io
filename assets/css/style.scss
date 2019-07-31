@@ -16,6 +16,15 @@
 
 body {
     font-family: 'Karla', sans-serif;
+    color: $body-text-color;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+a {
+    text-decoration: underline;
 }
 
 nav {
@@ -24,6 +33,7 @@ nav {
     padding-bottom: 1rem;
 
     a {
+        text-decoration: none;
         border-color: $body-text-color;
         border-width: 1px;
         border-style: solid;
@@ -36,9 +46,6 @@ nav {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    margin-bottom: 0.5rem !important;
-    margin-top: 0.5rem !important;
-
     a {
         color: $section-headings-color
     }
