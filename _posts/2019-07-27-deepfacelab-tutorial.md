@@ -147,8 +147,8 @@ You may choose to either extract from (1) the final video clip you want, or (2) 
   </tr>
   <tr>
     <td>ca_weights</td>
-    <td>n</td>
-    <td></td>
+    <td>y</td>
+    <td>See https://arxiv.org/abs/1702.06295 for info</td>
   </tr>
   <tr>
     <td>pixel_loss</td>
@@ -157,18 +157,18 @@ You may choose to either extract from (1) the final video clip you want, or (2) 
   </tr>
   <tr>
     <td>face_style_power</td>
-    <td>0</td>
-    <td></td>
+    <td>10</td>
+    <td>Or 0 if you run into memory issues</td>
   </tr>
   <tr>
     <td>bg_style_power</td>
-    <td>0</td>
-    <td></td>
+    <td>10</td>
+    <td>Or 0 if you run into memory issues</td>
   </tr>
   <tr>
     <td>apply_random_ct</td>
-    <td>y</td>
-    <td></td>
+    <td>n</td>
+    <td>Haven't much luck with this</td>
   </tr>
   <tr>
     <td>clipgrad</td>
