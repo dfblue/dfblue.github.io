@@ -25,6 +25,12 @@ collections:
     output: true
     permalink: /pub/:name
 
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/deepfakeblue-banner.png
+
 twitter_username: deepfakeb
 github_username:  dfblue
 google_analytics: UA-144274503-1
