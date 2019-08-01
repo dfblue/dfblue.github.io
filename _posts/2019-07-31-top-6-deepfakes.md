@@ -11,7 +11,7 @@ Welcome to the ~~month~~, ~~year~~, decade of Keanu deepfakes!
 
 The most favorite celebrity of the month to be deepfaked has been Keanu Reeves (thanks to data sets 😝). Throughout the whole month, we have seen really good progress with the quality and effectiveness of deepfakes. 
 
-Let us tell you why these are the top 5 of the month!
+Let us tell you why these are the top 6 of the month!
 
 ## 1. The Shining starring Jim Carrey Deepfake by Ctrl Shift Face
 
