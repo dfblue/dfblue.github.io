@@ -89,7 +89,7 @@ Keanu Reeves Stops A ROBBERY! - [https://www.youtube.com/watch?v=3dBiNGufIJw](ht
   <tr>
     <td>Release process</td>
     <td>Uploaded to Mega or Google Drive</td>
-    <td>GitHub Releases</td>
+    <td>GitHub Releases (latest code pulled from GitHub during install)</td>
   </tr>
   <tr>
     <td>Main developer</td>
@@ -120,7 +120,7 @@ https://faceswap.dev/forum/</td>
 
 [https://github.com/dfaker/df](https://github.com/dfaker/df) 
 
-DeepFakeBlue has not evaluated DF since it is much less user friendly than DeepFaceLab and FaceSwap, has little or no support community and generally looks to be defunct as the last commit was on Feb 23rd, 2018. Additionally, the df model has been merged into FaceSwap.
+DeepFakeBlue has not evaluated DF since it is much less user friendly than DeepFaceLab and FaceSwap, has little or no support community and generally looks to be defunct as the last commit was on Feb 23rd, 2018. **Additionally, the df model has been merged into FaceSwap.**
 
 ## Future updates
 
