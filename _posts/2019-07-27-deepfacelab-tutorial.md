@@ -20,6 +20,16 @@ categories: [tutorial, guide, how to, deepfacelab, deepfakes]
 * Faces should somewhat match (beard, hat, hair, skin color, shape, glasses)
 * Need at least 2 mins of good quality video, interview videos work well
 
+## Downloading the software
+> We will use DeepFaceLab to create the deepfakes. Another software, FaceSwap is also available, and will have a separate tutorial.
+
+* [Download DeepFaceLab](https://github.com/iperov/DeepFaceLab/blob/master/doc/doc_prebuilt_windows_app.md)
+    * Make sure to pick the right build for your GPU. If you don't have a GPU, use the CLSSE build
+    * Here's the [direct link](https://drive.google.com/drive/folders/17a9b9zmLdnAlItifcGSE9ixDIDAT3YxP)
+    * In that folder, you will find some pre-compiled face-sets. Go ahead and download one of them to get started quickly (otherwise you will have to build your own face-set from videos / images)
+* The downloaded .exe will extract and install the program to the location of your choosing. 
+    * A `workspace` folder will be created. This is the folder where all the action will happen.
+
 ## Extracting faces from source video
 
 * Name the source video `data_src` and place it in the `\workspace` folder.
