@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Deepfake Tools Overview July 2019"
-author: "DeepFakeBlue Team"
+author: "DeepFakeBlue"
 image: 
 date:   2019-08-08
 categories: [deepfake, software, tools, technology, deepfacelab, faceswap]
