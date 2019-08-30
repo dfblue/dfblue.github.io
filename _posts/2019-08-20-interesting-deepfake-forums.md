@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Interesting Deepfake Forums"
+title:  "Interesting Deepfake forums you need to see right now"
 author: "DeepFakeBlue"
 image: 
 date:   2019-08-20
