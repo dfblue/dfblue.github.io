@@ -1,13 +1,15 @@
 <header class="page-header" role="banner">
     <div class="video-wrapper">
-        <video id="hero-video" poster="https://media.giphy.com/media/WpOOn90Wam78gIfRvg/200_s.gif" autoplay="" loop="">
-            <source src="https://media.giphy.com/media/WpOOn90Wam78gIfRvg/giphy.mp4"
+        <video id="hero-video" poster="https://imgur.com/8elpqzS.jpg" autoplay="" loop="">
+            <source src="https://imgur.com/nGEMJqB.mp4"
                 type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
-            <img src="https://media.giphy.com/media/WpOOn90Wam78gIfRvg/giphy.gif"
+            <img src="https://imgur.com/8elpqzS.jpg"
                 title="Your browser does not support the mp4 video codec.">
         </video>
-        <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
-        <h2 class="project-tagline">
-            {{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+        <div class="project-info">
+            <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
+            <h2 class="project-tagline">
+                {{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+        </div>
     </div>
 </header>

@@ -17,6 +17,7 @@
 body {
     font-family: 'Karla', sans-serif;
     color: $body-text-color;
+    text-rendering: geometricPrecision;
 }
 
 p {
@@ -84,9 +85,15 @@ footer {
     z-index: -100;
 }
 
+.project-info {
+    display: block;
+    max-width: 64rem;
+    margin: 0 auto;
+}
+
 .post-header-image {
     object-fit: cover;
-    object-position: left top;
+    object-position: center center;
     height: 15rem;
     width: 100%;
 }
