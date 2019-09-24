@@ -25,7 +25,9 @@ We have a separate [tutorial on the face swap models in DeepFaceLab](https://pub
 
 Great. But how do we use the Avatar model?
 
-# Using the Avatar model on DeepFaceLab overview
+# Quick overview
+
+This is the general process for creating an Avatar deepfake:
 
 - Source is the celebrity (10-20 mins)
 - Destination is the actor (controls the celebrity face)
@@ -37,6 +39,8 @@ Great. But how do we use the Avatar model?
     - 1st stage at batch size 48 for an 8GB GPU
     - 2nd stage at batch size 6 for an 8GB GPU
 - Convert as usual
+
+Once we've familiarized ourselves with the process, let's begin!
 
 # Source and destination video requirements
 
