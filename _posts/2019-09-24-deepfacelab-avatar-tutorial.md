@@ -83,6 +83,7 @@ Don’t worry that column 3 and 5 in the preview window stay grey, they will be 
 ### Stage 2
 
 - Run `6) train AVATAR`
+    - press any key to change settings
     - stage 2
     - batch size to max for our GPU (6 for 8GB Nvidia GTX 1080)
     - run until we are happy with the clarity of columns 3 and 5 in the preview
