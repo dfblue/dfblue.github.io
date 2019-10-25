@@ -7,9 +7,11 @@ date:   2019-07-27
 categories: [tutorial, guide, how to, deepfacelab, deepfakes]
 ---
 
-> DeepFaceLab version 2019-06-20
+This tutorial is [open source](https://github.com/dfblue/dfblue.github.io/issues)!
 
-> This tutorial is [open source](https://github.com/dfblue/dfblue.github.io/issues)!
+> 👀 Update 10/25/19: Added instructions for the new [SAEHD model](#training) (amazing)
+
+> 👽 Update 9/24/19: New post for [AVATAR mode]({% post_url 2019-09-24-deepfacelab-avatar-tutorial %})
 
 ## Source and destination videos requirements
 
@@ -77,7 +79,7 @@ You may choose to either extract from (1) the final video clip you want, or (2) 
 
 ## Training
 
-* Run `6) train SAE` 
+* Run `6) train SAEHD` 
 * For an NVIDIA GTX 1080 8gb GPU these are the recommended settings for the first 40,000 iterations
 <table>
   <tr>
@@ -85,35 +87,15 @@ You may choose to either extract from (1) the final video clip you want, or (2) 
     <td>Value</td>
     <td>Notes</td>
   </tr>
-  <tr>
+    <tr>
     <td>iterations</td>
     <td>40000</td>
     <td></td>
   </tr>
   <tr>
-    <td>batch_size</td>
-    <td>8</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>sort_by_yaw</td>
-    <td>y</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>random_flip</td>
-    <td>n</td>
-    <td>If src doesn't have all the face angles that dst has</td>
-  </tr>
-  <tr>
-    <td>src_face_scale</td>
-    <td>0</td>
-    <td>Generally not used, but increase if dst face is much bigger than src</td>
-  </tr>
-  <tr>
     <td>resolution</td>
     <td>128</td>
-    <td>64 if less GPU memory</td>
+    <td>Increasing resolution requires significant VRAM increase</td>
   </tr>
   <tr>
     <td>face_type</td>
@@ -131,7 +113,7 @@ You may choose to either extract from (1) the final video clip you want, or (2) 
     <td></td>
   </tr>
   <tr>
-    <td>archi</td>
+    <td>architecture</td>
     <td>df</td>
     <td></td>
   </tr>
@@ -141,44 +123,34 @@ You may choose to either extract from (1) the final video clip you want, or (2) 
     <td>Reduce if less GPU memory (256)</td>
   </tr>
   <tr>
-    <td>e_ch_dims</td>
-    <td>42</td>
-    <td>Reduce if less GPU memory</td>
-  </tr>
-  <tr>
-    <td>d_ch_dims</td>
+    <td>ed_ch_dims</td>
     <td>21</td>
     <td>Reduce if less GPU memory</td>
   </tr>
   <tr>
-    <td>multiscale_decoder</td>
+    <td>random_warp</td>
     <td>y</td>
-    <td></td>
+    <td>We will turn this off for the second run</td>
   </tr>
   <tr>
-    <td>ca_weights</td>
-    <td>y</td>
-    <td>See https://arxiv.org/abs/1702.06295 for info</td>
-  </tr>
-  <tr>
-    <td>pixel_loss</td>
+    <td>trueface</td>
     <td>n</td>
     <td></td>
   </tr>
   <tr>
     <td>face_style_power</td>
-    <td>10</td>
-    <td>Or 0 if you run into memory issues</td>
+    <td>0</td>
+    <td>We'll increase this later</td>
   </tr>
   <tr>
     <td>bg_style_power</td>
-    <td>10</td>
-    <td>Or 0 if you run into memory issues</td>
+    <td>0</td>
+    <td></td>
   </tr>
   <tr>
-    <td>apply_random_ct</td>
-    <td>n</td>
-    <td>Haven't much luck with this</td>
+    <td>color_transfer</td>
+    <td>rct</td>
+    <td>Try the other modes in the interactive converter later</td>
   </tr>
   <tr>
     <td>clipgrad</td>
@@ -186,9 +158,19 @@ You may choose to either extract from (1) the final video clip you want, or (2) 
     <td></td>
   </tr>
   <tr>
-    <td>pretrain</td>
-    <td>n</td>
+    <td>batch_size</td>
+    <td>8</td>
+    <td>Higher if you don't run out of memory</td>
+  </tr>
+  <tr>
+    <td>sort_by_yaw</td>
+    <td>y</td>
     <td></td>
+  </tr>
+  <tr>
+    <td>random_flip</td>
+    <td>n</td>
+    <td>If src doesn't have all the face angles that dst has</td>
   </tr>
 </table>
 
@@ -205,17 +187,17 @@ You may choose to either extract from (1) the final video clip you want, or (2) 
   <tr>
     <td>iterations</td>
     <td>♾</td>
-    <td>Until details appear in the last column of preview</td>
+    <td>Until details appear in the last column of preview  (70-100k)</td>
   </tr>
   <tr>
-    <td>batch_size</td>
-    <td>12</td>
-    <td>12 if you can, if OOM errors occur, switch back to 8</td>
+    <td>random_warp</td>
+    <td>f</td>
+    <td>Turning it off helps get more details after it has generalized in the first run</td>
   </tr>
   <tr>
-    <td>pixel_loss</td>
-    <td>y</td>
-    <td>Could cause model collapse, so backup: yes and keep an eye on it</td>
+    <td>face_style</td>
+    <td>0.1</td>
+    <td>You can keep increasing it in additional training runs, keep an eye on the preview</td>
   </tr>
 </table>
 
@@ -226,7 +208,7 @@ Before converting, you can make a timelapse of the preview history (if you saved
 
 ```
 
-> cd \workspace\model\SAE_history
+> cd \workspace\model\SAEHD_history
 
 > ffmpeg -r 120 -f image2 -s 1280x720 -i %05d0.jpg -vcodec libx264 -crf 25 -pix_fmt yuv420p history.mp4
 
@@ -234,7 +216,9 @@ Before converting, you can make a timelapse of the preview history (if you saved
 
 ## Convert
 
-* Run `7) convert SAE`
+* Run `7) convert SAEHD`
+
+Use the interactive converter and memorize the shortcut keys, it will speed up the process a lot.
 
 <table>
   <tr>
@@ -243,19 +227,19 @@ Before converting, you can make a timelapse of the preview history (if you saved
     <td>Notes</td>
   </tr>
   <tr>
-    <td>mode</td>
-    <td>1 (overlay)</td>
-    <td>4 (seamless) also works well</td>
+    <td>interactive_converter</td>
+    <td>y</td>
+    <td>Definitely use the interactive converter since you can try out all the different settings before converting all the frames</td>
   </tr>
   <tr>
-    <td>hist_match</td>
-    <td>n</td>
-    <td>None of the histogram match settings color match well</td>
+    <td>mode</td>
+    <td>seamless</td>
+    <td></td>
   </tr>
   <tr>
     <td>mask_mode</td>
-    <td>1</td>
-    <td>Use learned*FAN-prd*FAN-dst if dst face has obstructions</td>
+    <td>learned</td>
+    <td></td>
   </tr>
   <tr>
     <td>erode_modifier</td>
@@ -268,29 +252,39 @@ Before converting, you can make a timelapse of the preview history (if you saved
     <td>Adjust depending on results</td>
   </tr>
   <tr>
-    <td>scale_modifier</td>
+    <td>motion_blur</td>
     <td>0</td>
-    <td>Adjust if scaling of src face is needed</td>
+    <td></td>
   </tr>
   <tr>
     <td>color_transfer</td>
-    <td>rct</td>
+    <td>ebs</td>
+    <td>Try all of them, can even use different ones for different scenes / lighting</td>
+  </tr>
+  <tr>
+    <td>sharpen_mode</td>
+    <td>box</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>sharpen_amount</td>
+    <td>1-3</td>
     <td></td>
   </tr>
   <tr>
     <td>super_resolution</td>
-    <td>y</td>
-    <td>Adds more detail</td>
+    <td>RankSRGAN</td>
+    <td>Enhances detail, especially around the eyes</td>
   </tr>
   <tr>
-    <td>degrade_color_power</td>
+    <td>color_degrade_power</td>
     <td>n</td>
     <td></td>
   </tr>
   <tr>
-    <td>alpha_channel</td>
+    <td>export_alpha_mask</td>
     <td>n</td>
-    <td>Outputs transparent PNGs for use in post-production tools</td>
+    <td>Outputs transparent PNGs for use in post-production tools if you need it</td>
   </tr>
 </table>
 
