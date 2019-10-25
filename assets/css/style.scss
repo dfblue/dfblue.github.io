@@ -17,10 +17,12 @@
 body {
     font-family: 'Karla', sans-serif;
     color: $body-text-color;
+    background-color: $bg-color;
+    text-rendering: geometricPrecision;
 }
 
-p {
-    font-size: 1.2rem;
+p, ul, li {
+    font-size: $body-text-size;
 }
 
 a {
@@ -29,8 +31,8 @@ a {
 
 nav {
     text-align: center;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: $spacing;
+    padding-bottom: $spacing;
 
     a {
         text-decoration: none;
@@ -40,8 +42,8 @@ nav {
         border-radius: $border-radius; 
         color: $body-text-color;
         padding: $border-padding * 2;
-        margin-left: 1rem;
-        margin-right: 1rem;
+        margin-left: $spacing;
+        margin-right: $spacing;
     }
 }
 
@@ -70,15 +72,17 @@ footer {
 }
 
 figure {
-    border: 2px solid #f3f6fa;
+    border: 2px solid lighten($bg-color, 10%);
     padding: 1.5rem;
-    border-radius: .5rem;
+    margin: $spacing 0 $spacing 0;
+    border-radius: $border-radius;
     text-align: center;
-    background: #f3f6fa;
+    background: darken($bg-color, 10%);
 
     img {
         width: 100%;
         object-fit: contain;
+        border: 0;
         border-radius: $border-radius;
     }
 }
@@ -114,13 +118,13 @@ figure {
 }
 
 .post-categories {
-    font-size: 0.8rem;
     list-style-type: none;
     margin: 0;
-    padding: 1rem 0 1rem 0;
+    padding: $spacing 0 $spacing 0;
     overflow: hidden;
     
     li {
+        font-size: 1rem;
         background-color: #12C0E6;
         float: left;
         display: block;
@@ -134,7 +138,7 @@ figure {
 .posts-list {
     list-style-type: none;
     margin: 0;
-    padding: 1rem 0 0 0;
+    padding: $spacing 0 0 0;
 
     li {
         margin-bottom: 3rem;
@@ -147,6 +151,6 @@ figure {
 
 ol {
     li {
-        margin-bottom: 1rem;
+        margin-bottom: $spacing;
     }
 }
