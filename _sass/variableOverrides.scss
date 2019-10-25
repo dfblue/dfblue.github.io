@@ -1,25 +1,37 @@
+$blue: #12C0E6;
+$gray: rgba(255,255,255,0.2);
+$white: rgba(255,255,255,0.9);
+$dark-blue: #181C3D;
+
 // Breakpoints
-$large-breakpoint: 64em !default;
-$medium-breakpoint: 42em !default;
+$large-breakpoint: 64em;
+$medium-breakpoint: 42em;
+
+// Background
+$bg-color: $dark-blue;
 
 // Headers
-$header-heading-color: #fff !default;
-$header-bg-color: #12C0E6 !default;
-$header-bg-color-secondary: #155799 !default;
+$header-heading-color: $white;
+$header-bg-color: $blue;
+$header-bg-color-secondary: #155799;
 
 // Text
-$section-headings-color: black !default;
-$body-text-color: #2a2a2a !default;
-$body-link-color: #1e6bb8 !default;
-$blockquote-text-color: #819198 !default;
+$section-headings-color: $white;
+$body-text-color: $white;
+$body-text-size: 1.3rem;
+$body-link-color: $blue;
+$blockquote-text-color: $gray;
 
 // Code
-$code-bg-color: #f3f6fa !default;
-$code-text-color: #567482 !default;
+$code-bg-color: $gray;
+$code-text-color: $gray;
 
 // Borders
-$border-color: #dce6f0 !default;
-$table-border-color: #e9ebec !default;
-$hr-border-color: #eff0f1 !default;
-$border-radius: 0.25rem !default;
-$border-padding: 0.25rem !default;
+$border-color: $gray;
+$table-border-color: $gray;
+$hr-border-color: $gray;
+$border-radius: 0.4rem;
+$border-padding: 0.25rem;
+
+// Spacing
+$spacing: 1rem;

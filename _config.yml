@@ -39,6 +39,7 @@ google_analytics: UA-144274503-1
 future: true
 markdown: kramdown
 theme: jekyll-theme-cayman
+# remote_theme: dfblue/hagura # this is how to use theme from github
 plugins:
   - jekyll-feed
   - jemoji
