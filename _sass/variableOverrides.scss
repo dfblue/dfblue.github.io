@@ -20,11 +20,12 @@ $section-headings-color: $white;
 $body-text-color: $white;
 $body-text-size: 1.3rem;
 $body-link-color: $blue;
-$blockquote-text-color: $gray;
+$blockquote-bg-color: lighten($bg-color, 10%);
+$blockquote-text-color: lighten($bg-color, 60%);
 
 // Code
-$code-bg-color: $gray;
-$code-text-color: $gray;
+$code-bg-color: lighten($bg-color, 10%);
+$code-text-color: lighten($bg-color, 60%);;
 
 // Borders
 $border-color: $gray;
