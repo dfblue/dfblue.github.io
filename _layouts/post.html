@@ -14,6 +14,7 @@
             {% endfor %}
         </ul>
         <h3>{{ page.date | date_to_string: "ordinal", "US"}} by {{ page.author }}</h3>
+        <br />
         {{ content }}
     </article>
     {% include footer.html %}
