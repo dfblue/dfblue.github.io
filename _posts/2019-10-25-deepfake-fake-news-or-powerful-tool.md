@@ -23,7 +23,7 @@ Our guest speaker Mr. Paweł Korus Ph.D. (New York University) presented his res
 
 Our Co-founder Sid Gandhi showcased the workflow of a deepfake software called FaceSwap along with a live demo. He also highlighted the importance of improving further research to improve existing technologies. Sid Gandhi is also VP of Product Engineering at a Silicon Valley cybersecurity start-up, developing an industry-first cybersecurity solution. Always on the forefront of new technology, Sidhant has worked on early AR/VR collaboration tools and mobile applications. In the past, he was a software engineer and DRI at Apple where he wrote developer-facing APIs in iOS 9 – 11. Sidhant holds a BS in Business with a minor in Computer Science from the University of Southern California.
 
-{% include figure.html url="https://imgur.com/4elpaiR.jpg" description="Rashi Ranka detailing the importance of deepfakes to fake news" height="300" width="auto" %}
+{% include figure.html url="https://imgur.com/4elpaiR.jpg" description="Rashi Ranka describing ethical uses of deepfakes" height="300" width="auto" %}
 
 Rashi Ranka (Co-founder, DeepFakeBlue) furthered the discussion on the basics of deepfakes, spreading of fake news and the importance of ethical deepfaking. She highlighted the use of deepfakes for advertising and entertainment purposes which have three major advantages:
 
