@@ -87,6 +87,11 @@ figure {
     }
 }
 
+blockquote {
+    background-color: $blockquote-bg-color;
+    padding: $spacing !important;
+}
+
 .page-header {
     position: relative;
     width: 100%;
