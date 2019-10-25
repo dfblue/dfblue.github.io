@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Interesting Deepfake forums you need to see right now"
-author: "DeepFakeBlue"
+author: "DFBlue"
 image: 
 date:   2019-08-20
 categories: [deepfake, forums, deepfacelab, faceswap]

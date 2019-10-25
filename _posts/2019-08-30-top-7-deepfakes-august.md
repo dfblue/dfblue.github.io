@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Top 7 Deepfakes in August 2019"
-author: "DeepFakeBlue"
+author: "DFBlue"
 image: https://i.imgur.com/QK8CpE5.jpg
 date:   2019-08-30
 categories: [deepfake, videos, examples]
@@ -55,7 +55,7 @@ I don’t want to talk about politics but this was hilarious.
 
 -----
 
-## Before you go, check out a Mark Zuckerberg deepfake by DeepFakeBlue 🤓
+## Before you go, check out a Mark Zuckerberg deepfake by DFBlue 🤓
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/M6gfw38KD3k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

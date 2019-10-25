@@ -1,13 +1,13 @@
 ---
 layout: post
 title:  "Deepfake Tools Overview July 2019"
-author: "DeepFakeBlue"
+author: "DFBlue"
 image: 
 date:   2019-08-08
 categories: [deepfake, software, tools, technology, deepfacelab, faceswap]
 ---
 
-Welcome to DeepFakeBlue’s first deepfake software overview. In this publication, we’ll be looking at the top two deepfake applications that users around the web are using. Most, if not all, of those Keanu, Trump, and Jim Carrey deepfakes you’ve seen on YouTube were made using these two tools! Let’s take a deeper look.
+Welcome to DFBlue’s first deepfake software overview. In this publication, we’ll be looking at the top two deepfake applications that users around the web are using. Most, if not all, of those Keanu, Trump, and Jim Carrey deepfakes you’ve seen on YouTube were made using these two tools! Let’s take a deeper look.
 
 ## DeepFaceLab
 
@@ -15,7 +15,7 @@ Welcome to DeepFakeBlue’s first deepfake software overview. In this publicatio
 
 [https://github.com/iperov/DeepFaceLab](https://github.com/iperov/DeepFaceLab)
 
-DeepFaceLab has been in development since June 4th, 2018 on GitHub. It seems to have roots in the old deepfakes.club software as the url [deepfakes.club](https://deepfakes.club) now points to the GitHub repository. For DeepFakeBlue, it worked smoothly the first time we used it with the 2019-06-20 version. 
+DeepFaceLab has been in development since June 4th, 2018 on GitHub. It seems to have roots in the old deepfakes.club software as the url [deepfakes.club](https://deepfakes.club) now points to the GitHub repository. For DFBlue, it worked smoothly the first time we used it with the 2019-06-20 version. 
 
 Unfortunately the English instructions included with DeepFaceLab are Google Translated from Russian and quite difficult to understand, especially to newcomers to deepfaking. But don’t worry, we put together a [tutorial for using DeepFaceLab](https://pub.dfblue.com/pub/2019-07-27-deepfacelab-tutorial) that pulls together best practices and notes from multiple forums, threads, and our own experience.
 
@@ -53,7 +53,7 @@ FaceSwap has a very different personality than DeepFaceLab. The main developers 
 
 The authors also give special attention to keeping deepfake usage ethical. Although they cannot stop anyone from using it in nefarious ways, they at least add a statement to the very beginning of the [Readme](https://github.com/deepfakes/faceswap/blob/master/README.md) to show us they are thinking about how their tools might be used.
 
-Another real benefit of using FaceSwap is the active [discord server](https://discordapp.com/invite/FC54sYg) for asking questions and getting help. That plus priority support for donors makes it a go-to choice for larger projects. DeepFakeBlue has not had a chance to verify that this support actually happens. Since we are so early in the technology that bugs and issues will no doubt surface, this is a huge advantage over DeepFaceLab, which at the time of writing does not have a support forum or chat community. Also listed on their Readme is implementing specific features and algorithms in exchange for donor support. Having this kind of say in the feature development could go a long way because new methodologies for the various parts of the software are being published every week on arxiv.
+Another real benefit of using FaceSwap is the active [discord server](https://discordapp.com/invite/FC54sYg) for asking questions and getting help. That plus priority support for donors makes it a go-to choice for larger projects. DFBlue has not had a chance to verify that this support actually happens. Since we are so early in the technology that bugs and issues will no doubt surface, this is a huge advantage over DeepFaceLab, which at the time of writing does not have a support forum or chat community. Also listed on their Readme is implementing specific features and algorithms in exchange for donor support. Having this kind of say in the feature development could go a long way because new methodologies for the various parts of the software are being published every week on arxiv.
 
 And if all that wasn’t enough, there is a great [forum](https://faceswap.dev/forum/index.php) with extensive FAQ and info on the various parts of the pipeline.
 
@@ -120,7 +120,7 @@ https://faceswap.dev/forum/</td>
 
 [https://github.com/dfaker/df](https://github.com/dfaker/df) 
 
-DeepFakeBlue has not evaluated DF since it is much less user friendly than DeepFaceLab and FaceSwap, has little or no support community and generally looks to be defunct as the last commit was on Feb 23rd, 2018. **Additionally, the df model has been merged into FaceSwap.**
+DFBlue has not evaluated DF since it is much less user friendly than DeepFaceLab and FaceSwap, has little or no support community and generally looks to be defunct as the last commit was on Feb 23rd, 2018. **Additionally, the df model has been merged into FaceSwap.**
 
 ## Future updates
 

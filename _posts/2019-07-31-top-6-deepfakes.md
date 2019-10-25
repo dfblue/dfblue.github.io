@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Top 6 Deepfakes in July 2019"
-author: "DeepFakeBlue"
+author: "DFBlue"
 image: https://imgur.com/O1cP3xV.jpg
 date:   2019-07-31
 categories: [deepfake, videos, examples]

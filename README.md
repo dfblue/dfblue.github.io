@@ -1,4 +1,4 @@
-# DeepFakeBlue website
+# DFBlue website
 
 Website runs on github pages.
 
