@@ -1,13 +1,13 @@
 ---
 layout: post
 title:  "Deepfake — Fake News or Powerful Tool? [Event Report]"
-author: "DeepFakeBlue"
+author: "DFBlue"
 image: https://imgur.com/v4bMC5F.jpg
 date:   2019-10-25
 categories: [deepfake, event, new york]
 ---
 
-On Sept. 5, [DeepFakeBlue](https://dfblue.com) hosted an event in New York City called “Deepfake — Fake News or Powerful tool?” which was a discussion on what's possible with Deepfake technology and how it can be used ethically.
+On Sept. 5, [DFBlue](https://dfblue.com) hosted an event in New York City called “Deepfake — Fake News or Powerful tool?” which was a discussion on what's possible with Deepfake technology and how it can be used ethically.
 
 **The questions we answered are:**
 
@@ -25,7 +25,7 @@ Our Co-founder Sid Gandhi showcased the workflow of a deepfake software called F
 
 {% include figure.html url="https://imgur.com/4elpaiR.jpg" description="Rashi Ranka describing ethical uses of deepfakes" height="300" width="auto" %}
 
-Rashi Ranka (Co-founder, DeepFakeBlue) furthered the discussion on the basics of deepfakes, spreading of fake news and the importance of ethical deepfaking. She highlighted the use of deepfakes for advertising and entertainment purposes which have three major advantages:
+Rashi Ranka (Co-founder, DFBlue) furthered the discussion on the basics of deepfakes, spreading of fake news and the importance of ethical deepfaking. She highlighted the use of deepfakes for advertising and entertainment purposes which have three major advantages:
 
 - Licensing Celebrity face, increase celebrity revenue
 - Reduce cost for producing video content
