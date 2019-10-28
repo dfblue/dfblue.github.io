@@ -8,11 +8,11 @@ redirect_from: /pub/2019-07-27-deepfacelab-tutorial/
 categories: [tutorial, guide, how to, deepfacelab, deepfakes]
 ---
 
-This tutorial is [open source](https://github.com/dfblue/dfblue.github.io/issues)!
+This tutorial is [open source](https://github.com/dfblue/dfblue.github.io/issues){:target="_blank"}!
 
 > 👀 Update 10/25/19: Added instructions for the new [SAEHD model](#training) (amazing)
 
-> 👽 Update 9/24/19: New post for [AVATAR mode]({% post_url 2019-09-24-deepfacelab-avatar-tutorial %})
+> 👽 Update 9/24/19: New post for [AVATAR mode]({% post_url 2019-09-24-deepfacelab-avatar-tutorial %}){:target="_blank"}
 
 ## Source and destination videos requirements
 
@@ -26,9 +26,9 @@ This tutorial is [open source](https://github.com/dfblue/dfblue.github.io/issues
 ## Downloading the software
 > We will use DeepFaceLab to create the deepfakes. Another software, FaceSwap is also available, and will have a separate tutorial.
 
-* [Download DeepFaceLab](https://github.com/iperov/DeepFaceLab/blob/master/doc/doc_prebuilt_windows_app.md)
+* [Download DeepFaceLab](https://github.com/iperov/DeepFaceLab/blob/master/doc/doc_prebuilt_windows_app.md){:target="_blank"}
     * Make sure to pick the right build for your GPU. If you don't have a GPU, use the CLSSE build
-    * Here's the [direct link](https://drive.google.com/drive/folders/17a9b9zmLdnAlItifcGSE9ixDIDAT3YxP)
+    * Here's the [direct link](https://drive.google.com/drive/folders/17a9b9zmLdnAlItifcGSE9ixDIDAT3YxP){:target="_blank"}
     * In that folder, you will find some pre-compiled face-sets. Go ahead and download one of them to get started quickly (otherwise you will have to build your own face-set from videos / images)
 * The downloaded .exe will extract and install the program to the location of your choosing. 
     * A `workspace` folder will be created. This is the folder where all the action will happen.
