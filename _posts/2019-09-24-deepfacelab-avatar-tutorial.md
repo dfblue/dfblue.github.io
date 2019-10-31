@@ -2,7 +2,7 @@
 layout: post
 title:  "DeepFaceLab Avatar tutorial"
 author: "DFBlue"
-image: https://i.imgur.com/YzYmcGt.jpg
+image: https://imgur.com/BzZFEfi.jpg
 date:   2019-09-24
 categories: [deepfake, deepfacelab, software, tutorial, example]
 highlight: true

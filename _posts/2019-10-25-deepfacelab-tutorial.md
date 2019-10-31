@@ -2,7 +2,7 @@
 layout: post
 title:  "The DeepFaceLab Tutorial (always up-to-date)"
 author: "DFBlue"
-image: https://i.imgur.com/hshcJnl.jpg
+image: https://imgur.com/ugP6EIy.jpg
 date:   2019-10-25
 redirect_from: /pub/2019-07-27-deepfacelab-tutorial/
 categories: [tutorial, guide, how to, deepfacelab, deepfakes]
