@@ -65,8 +65,7 @@ Shamook making us wish this was real!!!
 -----
 
 ## Before you go, check out another Obama deepfake by DFBlue 🤓
-
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/nIU_DvjICnY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% include youtube.html id="nIU_DvjICnY" %}
 
 -----
 
