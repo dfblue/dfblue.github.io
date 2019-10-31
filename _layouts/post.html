@@ -11,7 +11,7 @@
         <h5 class="mb-3">{{ page.date | date_to_string: "ordinal", "US"}} by {{ page.author }}</h5>
         <ul class="list-unstyled">
                 {% for category in page.categories %}
-                    <li class="badge badge-secondary">{{ category }}</li>
+                    <li class="badge badge-primary">{{ category }}</li>
                 {% endfor %}
             </ul>
         <br />
