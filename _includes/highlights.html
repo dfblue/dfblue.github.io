@@ -1,0 +1,13 @@
+<div class="card-deck my-3">
+    {% assign highlights = site.posts | where: "highlight",true | sort 'date' | reverse %}
+    {% for post in highlights limit:2 %}
+    <div class="card">
+        <!-- <div class="card-header">Featured</div> -->
+        <a href="{{ post.url }}"><img src="{{ post.image }}" class="card-img-top img-aspect-fill" height="200px" alt="{{ post.title }}"></a>
+        <div class="card-body">
+            <a href="{{ post.url }}"><h3 class="card-title">{{ post.title }}</h3></a>
+            <p class="card-text">{{ post.excerpt }}</p>
+        </div>
+    </div>
+    {% endfor %}
+</div>

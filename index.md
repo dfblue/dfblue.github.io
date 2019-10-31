@@ -6,5 +6,11 @@ layout: default
 title: "DFBlue Publications"
 ---
 
-## Recent publications
+<div class="my-5"></div>
+
+{% include highlights.html %}
+
+<div class="my-5"></div>
+
+<h1>All Publications</h1>
 {% include posts.html %}
