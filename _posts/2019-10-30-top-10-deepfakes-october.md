@@ -15,8 +15,6 @@ Let's review the top 10 of October! 👻
 ## 1. Will Smith if he starred in Django Unchained by Reds Only
 {% include youtube.html id="8GPHUYa-mxE" %}
 
-What a jaw-dropping fake performance by Will Smith, this fits right in our spooky vibe this month. Reds only, this was a great idea and you have executed it brilliantly.
-
 ## 2. The Joker Impersonator Turns Into The Actual Joker Himself by MagicOfBarca
 {% include youtube.html id="yEvdaaiAU_w" %}
 
@@ -66,7 +64,7 @@ Shamook making us wish this was real!!!
 
 ## Before you go, check out another Obama deepfake by DFBlue 🤓
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/nIU_DvjICnY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% include youtube.html id="nIU_DvjICnY" %}
 
 -----
 

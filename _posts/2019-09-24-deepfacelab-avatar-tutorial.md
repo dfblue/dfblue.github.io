@@ -5,6 +5,8 @@ author: "DFBlue"
 image: https://i.imgur.com/YzYmcGt.jpg
 date:   2019-09-24
 categories: [deepfake, deepfacelab, software, tutorial, example]
+highlight: true
+excerpt: "Avatar or puppet is a way to transform the facial expressions of the source person onto a destination person."
 ---
 
 Iperov fixed and added back the Avatar model to DeepFaceLab on August 24th 2019. 

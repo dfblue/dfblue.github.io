@@ -6,6 +6,8 @@ image: https://i.imgur.com/hshcJnl.jpg
 date:   2019-10-25
 redirect_from: /pub/2019-07-27-deepfacelab-tutorial/
 categories: [tutorial, guide, how to, deepfacelab, deepfakes]
+highlight: true
+excerpt: "We will use DeepFaceLab to create the deepfakes. Another software, FaceSwap is also available, and will have a separate tutorial."
 ---
 
 This tutorial is [open source](https://github.com/dfblue/dfblue.github.io/issues){:target="_blank"}!
@@ -42,7 +44,7 @@ This tutorial is [open source](https://github.com/dfblue/dfblue.github.io/issues
     * FPS <= 10 that gets you at least 500 images (1000-2000 is best)
 * Run `4) data_src extract faces S3FD best GPU`
     * Extracted faces saved to `data_src\aligned`.
-* Run`4.2.2) data_src sort by similar histogram` 
+* Run `4.2.2) data_src sort by similar histogram` 
     * Groups similar detected faces together 
 * Run `4.1) data_src check result` 
     * Delete faces that are not the right person, super blurry, cut off, upside down or sideways, or obstructed
@@ -80,13 +82,15 @@ You may choose to either extract from (1) the final video clip you want, or (2) 
 
 ## Training
 
-* Run `6) train SAEHD` 
-* For an NVIDIA GTX 1080 8gb GPU these are the recommended settings for the first 40,000 iterations
-<table>
+Run `6) train SAEHD` 
+
+### First 40k iterations
+
+<table class="table table-striped table-sm">
   <tr>
-    <td>Setting</td>
-    <td>Value</td>
-    <td>Notes</td>
+    <th>Setting</th>
+    <th>Value</th>
+    <th>Notes</th>
   </tr>
     <tr>
     <td>iterations</td>
@@ -173,17 +177,16 @@ You may choose to either extract from (1) the final video clip you want, or (2) 
     <td>n</td>
     <td>If src doesn't have all the face angles that dst has</td>
   </tr>
+  <caption>For an NVIDIA GTX 1080 8gb GPU</caption>
 </table>
 
+### Rest of training
 
-* Rest of training
-
-
-<table>
+<table class="table table-striped table-sm">
   <tr>
-    <td>Setting</td>
-    <td>Value</td>
-    <td>Notes</td>
+    <th>Setting</th>
+    <th>Value</th>
+    <th>Notes</th>
   </tr>
   <tr>
     <td>iterations</td>
@@ -221,7 +224,7 @@ Before converting, you can make a timelapse of the preview history (if you saved
 
 Use the interactive converter and memorize the shortcut keys, it will speed up the process a lot.
 
-<table>
+<table class="table table-striped table-sm">
   <tr>
     <td>Setting</td>
     <td>Value</td>

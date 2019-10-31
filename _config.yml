@@ -38,7 +38,7 @@ google_analytics: UA-144274503-1
 # Build settings
 future: true
 markdown: kramdown
-theme: jekyll-theme-cayman
+# theme: jekyll-theme-cayman # no theme, just using bootstrap
 # remote_theme: dfblue/hagura # this is how to use theme from github
 plugins:
   - jekyll-feed

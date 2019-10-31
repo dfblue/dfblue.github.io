@@ -65,7 +65,7 @@ Keanu Reeves Stops A ROBBERY! - [https://www.youtube.com/watch?v=3dBiNGufIJw](ht
 
 ## Side-by-side
 
-<table>
+<table class="table table-striped table-sm">
   <tr>
     <td></td>
     <td>DeepFaceLab</td>
