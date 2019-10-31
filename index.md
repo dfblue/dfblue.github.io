@@ -6,6 +6,8 @@ layout: default
 title: "DFBlue Publications"
 ---
 
+<div class="my-5"></div>
+
 {% include highlights.html %}
 
 <div class="my-5"></div>

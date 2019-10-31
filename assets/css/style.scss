@@ -21,13 +21,9 @@ hr {
     margin: 4rem 0;
 }
 
-// body {
-//     font-family: 'Karla', sans-serif;
-//     font-weight: normal;
-//     color: $body-text-color;
-//     background-color: $bg-color;
-//     text-rendering: geometricPrecision;
-// }
+body {
+    text-rendering: geometricPrecision;
+}
 
 // p, ul, li {
 //     font-size: $body-text-size;
@@ -107,21 +103,20 @@ blockquote {
     }
 }
 
-.hero-video-wrapper {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) );
-}
+// .hero-video-wrapper {
+//     width: 100%;
+//     overflow: hidden;
+//     background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) );
+// }
 
-.hero-video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: auto;
-    width: 100%;
-    z-index: -100;
-}
+// .hero-video {
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     height: auto;
+//     width: 100%;
+//     z-index: -100;
+// }
 
 // .post-header-image {
 //     object-fit: cover;

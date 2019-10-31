@@ -10,11 +10,11 @@ highlight: true
 excerpt: "We will use DeepFaceLab to create the deepfakes. Another software, FaceSwap is also available, and will have a separate tutorial."
 ---
 
-This tutorial is [open source](https://github.com/dfblue/dfblue.github.io/issues){:target="_blank"}!
-
 > 👀 Update 10/25/19: Added instructions for the new [SAEHD model](#training) (amazing)
 
 > 👽 Update 9/24/19: New post for [AVATAR mode]({% post_url 2019-09-24-deepfacelab-avatar-tutorial %}){:target="_blank"}
+
+-----
 
 ## Source and destination videos requirements
 

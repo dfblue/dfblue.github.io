@@ -26,14 +26,15 @@ $black:    #fff;
 $primary: #12C0E6;
 $body-color: $gray-900;
 
-@import url('https://fonts.googleapis.com/css?family=Karla:400,700|Space+Mono:400i,700,700i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Karla|Space+Mono&display=swap');
 
-$font-family-sans-serif:      'Karla', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-$font-family-monospace:       'Space Mono', SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-
+$font-family-sans-serif: 'Karla', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$font-family-monospace: 'Space Mono', SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
 $headings-font-family: $font-family-monospace;
 $headings-font-weight: 300;
+
+$headings-margin-bottom: 2rem;
 
 // $blue: #12C0E6;
 // $gray: rgba(255,255,255,0.2);
