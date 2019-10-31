@@ -2,7 +2,7 @@
 layout: post
 title:  "Top 10 Deepfakes in October 2019"
 author: "DFBlue"
-image: https://imgur.com/IJ8VUwx.jpg
+image: https://imgur.com/hEBbQZp.jpg
 date:   2019-10-30
 categories: [deepfake, obama deepfake, faceswap, deepfacelab]
 highlight: true
