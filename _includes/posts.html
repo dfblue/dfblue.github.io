@@ -1,8 +1,14 @@
-<ul class="posts-list">
-    {% for post in site.posts %}
-    <li>
-        <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-        {{ post.date | date_to_string: "ordinal", "US"}} by {{ post.author }}
-    </li>
-    {% endfor %}
-</ul>
+<div class="my-3">
+    <ol class="list-unstyled">
+        {% for post in site.posts %}
+        <li class="media my-5">
+            <a href="{{ post.url }}"><img src="{{ post.image }}" width="350px" height="200px" class="mr-4 rounded img-aspect-fill" alt="{{ post.title }}"></a>
+            <div class="media-body">
+                <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
+                <h6>{{ post.date | date_to_string: "ordinal", "US"}} by {{ post.author }}</h6>
+                <p>{{ post.excerpt }}</p>
+            </div>
+        </li>
+        {% endfor %}
+    </ol>
+</div>
