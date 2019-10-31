@@ -16,6 +16,7 @@
 
 body {
     font-family: 'Karla', sans-serif;
+    font-weight: normal;
     color: $body-text-color;
     background-color: $bg-color;
     text-rendering: geometricPrecision;
@@ -53,13 +54,19 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
+h1 {
+    font-size: 3rem;
+}
+
 h1, h2 {
     font-family: 'Space Mono', monospace;
-    font-weight: 700;
 }
 
 h2 {
-    font-style: italic;
+    font-size: 2.9 !important;
+    font-weight: 700 !important;
+    margin-top: 3rem !important;
+    margin-bottom: 3rem !important;
 }
 
 h3 {
@@ -114,12 +121,17 @@ blockquote {
     margin: 0 auto;
 }
 
-.post-header-image {
-    object-fit: cover;
-    object-position: top center;
-    height: 15rem;
+.page-header {
+    position: relative;
     width: 100%;
-    border-radius: $border-radius;
+    overflow: hidden;
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) );
+}
+
+.post-header-image {
+    object-fit: contain;
+    height: 25rem;
+    width: 100%;
 }
 
 .post-categories {
@@ -130,7 +142,7 @@ blockquote {
     
     li {
         font-size: 1rem;
-        background-color: #12C0E6;
+        background-color: lighten($color: $bg-color, $amount: 20);
         float: left;
         display: block;
         color: white;
