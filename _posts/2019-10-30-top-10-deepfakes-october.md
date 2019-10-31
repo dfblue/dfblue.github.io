@@ -13,51 +13,52 @@ We saw a lot of new content in the deepfake space as well as our usual suspects 
 Let's review the top 10 of October! 👻
 
 ## 1. Will Smith if he starred in Django Unchained by Reds Only
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/8GPHUYa-mxE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% include youtube.html id="8GPHUYa-mxE" %}
 
 What a jaw-dropping fake performance by Will Smith, this fits right in our spooky vibe this month. Reds only, this was a great idea and you have executed it brilliantly.
 
 ## 2. The Joker Impersonator Turns Into The Actual Joker Himself by MagicOfBarca
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/yEvdaaiAU_w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% include youtube.html id="yEvdaaiAU_w" %}
 
 This Joker impersonation is spot on! 
+
 ## 3. Lily Collins as Audrey Hepburn by madGANs
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/vYqHJCSRhiI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% include youtube.html id="vYqHJCSRhiI" %}
 
 This scene was extremely hilarious and very well done! 💪🏻
 
 ## 4. Donald Trump as Richard Nixon by The Fakening
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/puBQ_r7ox8M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% include youtube.html id="puBQ_r7ox8M" %}
 
 The Fakening did a fantastic job of deepfaking the voice which is the next big milestone. No one can deepfake Trump’s hair though.
 
 ## 5. Justin Beanber on Between Two Ferns by OneDuality
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/x9p11pWSPDE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% include youtube.html id="x9p11pWSPDE" %}
 
 Oh my god, it was unreal to watch our favorite Mr. Bean talk without energy but was extremely hilarious. It was almost as if this was Mr. Bean for Adults 🍃🤐
 
 ## 6. Obama Sings Spooky Scary Skeletons by Schmoyoho	
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/8Ao-eMUn-U8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% include youtube.html id="8Ao-eMUn-U8" %}
 
 It’s Halloween and this is how you get in the holiday spirit!! 
 
 ## 7. Detroit Become Human by Metafake
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/o-UMBBJ_9DI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% include youtube.html id="o-UMBBJ_9DI" %}
 
 Creepiest deepfake we’ve seen, spooky score 11/10!
 
 ## 8. Putin in Casino Royale by Finergot Movies
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/WWnTs2MMYs0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% include youtube.html id="WWnTs2MMYs0" %}
 
 Well isn’t Putin also winning everything in real life 💁🏻‍♀️
 
 ## 9. Obama in Black Panther by Shamook
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ZLAj4-FKnO4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% include youtube.html id="ZLAj4-FKnO4" %}
 
 Shamook making us wish this was real!!!
 
 ## 10. Dr. Elon - Dr. Evil except it's Elon Musk by Defaced Productions
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/IrRw_iKcHeQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% include youtube.html id="IrRw_iKcHeQ" %}
 
 “Could it be more accurate?” — Chandler Bing
 
