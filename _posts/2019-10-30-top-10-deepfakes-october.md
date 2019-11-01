@@ -29,12 +29,12 @@ This scene was extremely hilarious and very well done! 💪🏻
 The Fakening did a fantastic job of deepfaking the voice which is the next big milestone. No one can deepfake Trump’s hair though.
 {% include youtube.html id="puBQ_r7ox8M" %}
 
-## 5. Justin Beanber on Between Two Ferns by OneDuality
+## 5. Justin Beanber on Between Two Ferns by Oneduality
 Oh my god, it was unreal to watch our favorite Mr. Bean talk without energy but was extremely hilarious. It was almost as if this was Mr. Bean for Adults 🍃🤐
 {% include youtube.html id="x9p11pWSPDE" %}
 
-## 6. Obama Sings Spooky Scary Skeletons by Schmoyoho	
-It’s Halloween and this is how you get in the holiday spirit!! 
+## 6. Obama Sings Spooky Scary Skeletons by Schmoyoho & Oneduality
+It’s Halloween and this is how you get in the holiday spirit! Schmoyoho did the music and Oneduality did the deepfake on this one.
 {% include youtube.html id="8Ao-eMUn-U8" %}
 
 ## 7. Detroit Become Human by Metafake
