@@ -41,20 +41,19 @@ excerpt: "We will use DeepFaceLab to create the deepfakes. Another software, Fac
     * Most formats that `ffmpeg` supports will work
 * Run `2) extract images from video data_src`
     * Use PNG (better quality)
-    * FPS <= 10 that gets you at least 500 images (1000-2000 is best)
+    * FPS <= 10 that gets you *at least* 2000 images (4k-6k is ideal)
 * Run `4) data_src extract faces S3FD best GPU`
     * Extracted faces saved to `data_src\aligned`.
 * Run `4.2.2) data_src sort by similar histogram` 
     * Groups similar detected faces together 
 * Run `4.1) data_src check result` 
     * Delete faces that are not the right person, super blurry, cut off, upside down or sideways, or obstructed
-* If you have more than 2000 detected faces run `4.2.4) data_src sort by dissimilar histogram` 
-    * Run `4.1) data_src check result` again
-    * Check faces towards the end, if many of them are similar, you can delete similar ones until you have 2000 faces
 * Run `4.2.other) data_src util add landmarks debug images`
     * New images with `_debug` suffix are created in  `data_src/aligned` which allow you to see the detected facial *landmarks*
     * Look for faces where landmarks are misaligned and delete the `_debug` and original images for those
     * Once you’re done, delete all  `_debug` images by using the search bar to filter for `_debug`
+* Run `4.2.6) data_src sort by final`
+    * Choose a target image number around 90% of your total faces
 
 ## Extracting faces from destination video
 
@@ -66,9 +65,6 @@ You may choose to either extract from (1) the final video clip you want, or (2) 
 * Run `5.2) data_dst sort by similar histogram`
 * Run `5.1) data_dst check results` 
     * Delete all faces that are not the target face to swap, or are the target face but upside down or sideways. Every face that you leave in will be swapped in the final video.
-    * Create a folder called `removed/` in the `/aligned` folder
-    * Move target faces that are obstructed, blurry, or partial into `removed/`
-    * We will move these faces back into `/aligned` once training is done
 * Run `5.1) data_dst check results debug`
     * Delete any faces that are not correctly aligned or missing alignment
     * Pay special attention to the jaw area
@@ -84,8 +80,6 @@ You may choose to either extract from (1) the final video clip you want, or (2) 
 
 Run `6) train SAEHD` 
 
-### First 40k iterations
-
 <table class="table table-striped table-sm">
   <tr>
     <th>Setting</th>
@@ -94,8 +88,8 @@ Run `6) train SAEHD`
   </tr>
     <tr>
     <td>iterations</td>
-    <td>40000</td>
-    <td></td>
+    <td>100000</td>
+    <td>Or until previews are sharp with eyes and teeth details.</td>
   </tr>
   <tr>
     <td>resolution</td>
@@ -114,8 +108,8 @@ Run `6) train SAEHD`
   </tr>
   <tr>
     <td>optimizer_mode</td>
-    <td>1</td>
-    <td></td>
+    <td>2 or 3</td>
+    <td>Modes 2/3 place work on the gpu and system memory. For a 8gb card you can place on mode 3 and still most likely be able to do 160 res fakes with small batch size.</td>
   </tr>
   <tr>
     <td>architecture</td>
@@ -135,7 +129,7 @@ Run `6) train SAEHD`
   <tr>
     <td>random_warp</td>
     <td>y</td>
-    <td>We will turn this off for the second run</td>
+    <td></td>
   </tr>
   <tr>
     <td>trueface</td>
@@ -145,17 +139,17 @@ Run `6) train SAEHD`
   <tr>
     <td>face_style_power</td>
     <td>0</td>
-    <td>We'll increase this later</td>
+    <td>Can enable if you want to morph src more to dst. But disable after 15k iterations.</td>
   </tr>
   <tr>
     <td>bg_style_power</td>
-    <td>0</td>
-    <td></td>
+    <td>10</td>
+    <td>Turn off at 15k iterations. Styles on consume ~30% more vram so you will need to change batch size accordingly.</td>
   </tr>
   <tr>
     <td>color_transfer</td>
-    <td>rct</td>
-    <td>Try the other modes in the interactive converter later</td>
+    <td>varies</td>
+    <td>Try all modes in the interactive converter</td>
   </tr>
   <tr>
     <td>clipgrad</td>
@@ -169,42 +163,16 @@ Run `6) train SAEHD`
   </tr>
   <tr>
     <td>sort_by_yaw</td>
-    <td>y</td>
-    <td></td>
+    <td>n</td>
+    <td>No, unless you have very few src faces</td>
   </tr>
   <tr>
     <td>random_flip</td>
-    <td>n</td>
-    <td>If src doesn't have all the face angles that dst has</td>
+    <td>y</td>
+    <td></td>
   </tr>
   <caption>For an NVIDIA GTX 1080 8gb GPU</caption>
 </table>
-
-### Rest of training
-
-<table class="table table-striped table-sm">
-  <tr>
-    <th>Setting</th>
-    <th>Value</th>
-    <th>Notes</th>
-  </tr>
-  <tr>
-    <td>iterations</td>
-    <td>♾</td>
-    <td>Until details appear in the last column of preview  (70-100k)</td>
-  </tr>
-  <tr>
-    <td>random_warp</td>
-    <td>f</td>
-    <td>Turning it off helps get more details after it has generalized in the first run</td>
-  </tr>
-  <tr>
-    <td>face_style</td>
-    <td>0.1</td>
-    <td>You can keep increasing it in additional training runs, keep an eye on the preview</td>
-  </tr>
-</table>
-
 
 ## Optional: History timelapse
 
@@ -237,7 +205,7 @@ Use the interactive converter and memorize the shortcut keys, it will speed up t
   </tr>
   <tr>
     <td>mode</td>
-    <td>seamless</td>
+    <td>overlay</td>
     <td></td>
   </tr>
   <tr>
@@ -247,13 +215,13 @@ Use the interactive converter and memorize the shortcut keys, it will speed up t
   </tr>
   <tr>
     <td>erode_modifier</td>
-    <td>0</td>
+    <td>0-50</td>
     <td>If src face is bleeding outside the edge of dst face increase this to "erode" away the src face on the outside</td>
   </tr>
   <tr>
     <td>blur_modifier</td>
-    <td>10-100</td>
-    <td>Adjust depending on results</td>
+    <td>10-200</td>
+    <td>The more similar the face the lower you can set erode and blur and get great results.</td>
   </tr>
   <tr>
     <td>motion_blur</td>
@@ -298,3 +266,4 @@ Use the interactive converter and memorize the shortcut keys, it will speed up t
 
 ## Done 🤡
 
+> Contributions by DFBlue, PlanetOfTheFakes
