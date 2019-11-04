@@ -17,6 +17,7 @@ title: DFBlue Publications
 email: s@dfblue.com
 description: >- # this means to ignore newlines until "baseurl:"
   DFBlue provides publications, tools and services for the ethical use, detection and awareness of deepfakes and digital forgery.
+repository: "dfblue/dfblue.github.io"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://pub.dfblue.com" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: pretty
