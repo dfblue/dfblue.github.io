@@ -1,0 +1,22 @@
+---
+label: Publication
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: list
+  name: categories
+  label: categories
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: author
+  label: author
+- type: file
+  name: image
+  label: image
