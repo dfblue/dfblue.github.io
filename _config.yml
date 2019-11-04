@@ -32,7 +32,7 @@ defaults:
     values:
       image: /assets/images/dfblue-banner.png
 
-twitter_username: deepfakeb
+twitter_username: deepfakeblue
 github_username:  dfblue
 google_analytics: UA-144274503-1
 
