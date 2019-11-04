@@ -21,4 +21,4 @@ In the past few months we've gotten multiple requests like:
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTLGSWwRh5PgcS5KcuffvjW4-CGrdzkhQD3mw1MsEX3Jbi1AfaDfvDKlFF7yLkN5wV917_ej2fpnAu3/embed?start=false&loop=false&delayms=60000" frameborder="0" width="100%" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-> Feedback is welcome on the workflow, and suggestions will be used to improve it. Tweet us at [@{{ site.twitter_username }}](https://twitter.com/{{ site.twitter_username }} "@{{ site.twitter_username }}")
+> Feedback is welcome on the workflow, and suggestions will be used to improve it. Tweet us at [@{{ site.twitter_username }}](https://twitter.com/{{ site.twitter_username }} "@{{ site.twitter_username }}"){:target="_blank"}
