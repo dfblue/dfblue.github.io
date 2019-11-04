@@ -3,17 +3,26 @@ label: Publication
 hide_body: false
 fields:
 - type: text
+  name: layout
+  label: layout
+  default: post
+  config:
+    required: true
+  hidden: true
+- type: text
   name: title
   label: title
 - type: datetime
   name: date
   label: date
+- name: excerpt
+  type: text
+  config:
+    required: false
+  label: excerpt
 - type: list
   name: categories
   label: categories
-- type: text
-  name: layout
-  label: layout
 - type: text
   name: author
   label: author
