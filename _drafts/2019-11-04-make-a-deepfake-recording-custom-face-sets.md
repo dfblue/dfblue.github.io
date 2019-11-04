@@ -1,6 +1,6 @@
 ---
 title: 'Make a deepfake: recording custom face sets'
-date: 2019-11-04 00:00:00 -0800
+date: 2019-11-04T08:00:00.000+00:00
 categories:
 - tutorial
 - deepfake
