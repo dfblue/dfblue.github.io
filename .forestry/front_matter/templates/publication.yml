@@ -20,3 +20,6 @@ fields:
 - type: file
   name: image
   label: image
+- name: highlight
+  type: boolean
+  label: highlight
