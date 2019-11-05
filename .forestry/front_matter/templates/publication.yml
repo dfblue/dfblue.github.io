@@ -32,6 +32,12 @@ fields:
 - name: highlight
   type: boolean
   label: highlight
+- name: redirect_from
+  type: tag_list
+  default: []
+  label: redirect from
+  description: 'Urls to redirect from if post names / dates have changed (example:
+    /pub/2019-07-27-deepfacelab-tutorial/)'
 pages:
-- _posts/2019-11-04-make-a-deepfake-recording-custom-face-sets.md
 - _posts/useful-ffmpeg-commands-for-creating-deepfakes.md
+- _posts/2019-11-04-make-a-deepfake-recording-custom-face-sets.md
