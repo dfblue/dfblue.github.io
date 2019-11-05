@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Useful FFMPEG commands for creating deepfakes
+title: Tips & Tricks for Managing Deepfake Source Videos
 date: 2019-11-05 00:00:00 -0800
 excerpt: ''
 categories:
