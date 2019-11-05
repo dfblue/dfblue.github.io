@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Tips & Tricks for Managing Deepfake Source Videos
-date: 2019-11-05 00:00:00 -0800
+date: 2019-11-05T08:00:00.000+00:00
 excerpt: ''
 categories:
 - ffmpeg
@@ -10,6 +10,7 @@ categories:
 author: DFBlue
 image: ''
 highlight: false
+redirect_from: []
 
 ---
 When sourcing video content for deepfakes, we end up with videos from a variety of sources. These videos can be in different formats or sizes.
