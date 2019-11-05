@@ -2,7 +2,8 @@
 layout: post
 title: Tips & Tricks for Managing Deepfake Source Videos
 date: 2019-11-05T08:00:00.000+00:00
-excerpt: ''
+excerpt: Preparing videos for frame and face extraction properly can save us lots
+  of time and improve our deepfakes.
 categories:
 - ffmpeg
 - video editing
