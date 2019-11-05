@@ -8,7 +8,9 @@ layout: post
 author: DFBlue
 image: "/uploads/make-a-deepfake.png"
 highlight: false
-excerpt: ''
+excerpt: 'In the past few months we''ve gotten multiple requests like: How do I record
+  my face for a deepfake? What''s the best way to record a custom face set for a deepfake?'
+redirect_from: []
 
 ---
 In the past few months we've gotten multiple requests like:
