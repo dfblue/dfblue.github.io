@@ -23,7 +23,7 @@ Instead of video editors, we will use low level tools which require some time to
 
 ## Cutting out unwanted parts
 
-We at DFBlue use the excellent LosslessCut to quickly trim multiple unwanted parts in a video clip. This tool is extremely useful for cutting interviews, movies, and tv shows where your target face isn't always in the shot.
+At DFBlue, we use the excellent LosslessCut to quickly trim multiple unwanted parts in a video clip. This tool is extremely useful for cutting interviews, movies, and tv shows where your target face isn't always in the shot.
 
 ### Download LosslessCut
 
