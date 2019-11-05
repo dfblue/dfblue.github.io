@@ -22,7 +22,8 @@ hr {
 }
 
 body {
-    text-rendering: geometricPrecision;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 // p, ul, li {
