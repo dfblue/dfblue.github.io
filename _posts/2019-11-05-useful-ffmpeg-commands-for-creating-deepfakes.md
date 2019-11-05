@@ -23,7 +23,7 @@ Instead of video editors, we will use low level tools which require some time to
 
 ## Cutting out unwanted parts
 
-At DFBlue, we use the excellent LosslessCut to quickly trim multiple unwanted parts in a video clip. This tool is extremely useful for cutting interviews, movies, and tv shows where your target face isn't always in the shot.
+At DFBlue, we use the excellent `LosslessCut` to quickly trim multiple unwanted parts in a video clip. This tool is extremely useful for cutting interviews, movies, and tv shows where your target face isn't always in the shot.
 
 ### Download LosslessCut
 
@@ -52,3 +52,17 @@ We can use `ffmpeg` to accomplish this. `ffmpeg` is a command line tool with ton
 To scale a video to 1080p use the following command
 
     ffmpeg -i input.mp4 -vf scale=-1:1080 input_1080.mp4
+
+## Crop to square aspect ratio
+
+Cropping to a square is required for DeepFaceLab's AVATAR mode. Just make sure our input file has the target face in the center of the frame, otherwise it will get cut off.
+
+    ffmpeg -i input.mp4 -filter:v 'crop=ih/1:ih' -c:v libx264 -c:a copy output.mp4
+
+## Webm to mp4
+
+Many 4k videos we find online will be in `webm` format. If we want to splice these videos together with other mp4 files, it's easier to convert the webm to mp4 first. We can also use this along with downscaling since `ffmpg` automatically uses the file extension as a hint for the correct format to use.
+
+    ffmpeg -i video.webm -crf 26 video.mp4
+
+> #### Hope this helps!
