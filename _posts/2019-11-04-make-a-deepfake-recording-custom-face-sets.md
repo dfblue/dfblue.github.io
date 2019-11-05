@@ -6,7 +6,7 @@ categories:
 - deepfake
 layout: post
 author: DFBlue
-image: ''
+image: "/uploads/make-a-deepfake.png"
 highlight: false
 excerpt: ''
 
