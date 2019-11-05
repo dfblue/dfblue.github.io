@@ -8,7 +8,7 @@ categories:
 - video editing
 - deepfake
 author: DFBlue
-image: ''
+image: "/uploads/tips-and-tricks.png"
 highlight: false
 redirect_from: []
 
