@@ -1,27 +1,30 @@
 ---
 layout: post
-title:  "Deepfake — Fake News or Powerful Tool? [Event Report]"
-author: "DFBlue"
+title: Deepfake — Fake News or Powerful Tool? [Event Report]
+author: DFBlue
 image: https://imgur.com/v4bMC5F.jpg
-date:   2019-10-25
-categories: [deepfake, event, new york]
----
+date: 2019-10-25
+categories:
+- deepfake
+- event
+- new york
 
+---
 On Sept. 5, [DFBlue](https://dfblue.com){:target="_blank"} hosted an event in New York City called “Deepfake — Fake News or Powerful tool?” which was a discussion on what's possible with Deepfake technology and how it can be used ethically.
 
 **The questions we answered are:**
 
-- What is possible with today's deepfake technology?
-- How can we detect deepfakes?
-- What are the ethical uses of deepfakes in the world of Advertising & Entertainment?
+* What is possible with today's deepfake technology?
+* How can we detect deepfakes?
+* What are the ethical uses of deepfakes in the world of Advertising & Entertainment?
 
 > This was the [first-ever](http://web.archive.org/web/20191028204404/https://www.google.com/search?q=deepfake+event&oq=deepfake+event){:target="_blank"} event focused on deepfakes.
 
 ## Slides
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT90vnbYk0IQ6fQcrna5iRjKqBGkCkaoKK0qWr5Nvf4rrea0LrBNjWm2JHEHQr4K5FrrjMfMVDPgYVd/embed?start=false&loop=false&delayms=30000" frameborder="0" width="920" height="547" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT90vnbYk0IQ6fQcrna5iRjKqBGkCkaoKK0qWr5Nvf4rrea0LrBNjWm2JHEHQr4K5FrrjMfMVDPgYVd/embed?start=false&loop=false&delayms=30000" frameborder="0" width="100%" height="450" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
------
+***
 
 ## Speakers
 
@@ -37,15 +40,14 @@ Our Co-founder Sid Gandhi showcased the workflow of a deepfake software called F
 
 Rashi Ranka (Co-founder, DFBlue) furthered the discussion on the basics of deepfakes, spreading of fake news and the importance of ethical deepfaking. She highlighted the use of deepfakes for advertising and entertainment purposes which have three major advantages:
 
-- Licensing Celebrity face, increase celebrity revenue
-- Reduce cost for producing video content
-- Shoot remote locations without actors
+* Licensing Celebrity face, increase celebrity revenue
+* Reduce cost for producing video content
+* Shoot remote locations without actors
 
------
+***
 
 ## Attendees
 
 We were extremely glad to have AI professionals, ML engineers, media professors, advertisers, media synthesis investors and research students attending the event.
 
 {% include figure.html url="https://imgur.com/RXU52ZN.jpg" description="Attendees networking during the event" height="300" width="auto" %}
- 
