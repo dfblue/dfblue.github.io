@@ -32,7 +32,12 @@ defaults:
     values:
       image: /assets/images/dfblue-banner.png
 
-twitter_username: dfblue
+logo: /assets/images/dfblue-logo.png
+
+twitter:
+  username: dfblue
+  card: summary_large_image
+
 github_username:  dfblue
 google_analytics: UA-144274503-1
 
@@ -46,6 +51,7 @@ plugins:
   - jemoji
   - jekyll-sitemap
   - jekyll-redirect-from
+  - jekyll-seo-tag
 
 whitelist:
   - jekyll-redirect-from
