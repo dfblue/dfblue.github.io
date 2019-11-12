@@ -19,4 +19,4 @@ To take the survey click [here](https://survey.twitterfeedback.com/survey/selfse
 
 DFBlue took this survey and recorded the questions in it.
 
-<div width="100%" height="auto" class="imgur-embed-pub" lang="en" data-id="a/UXcKA7t" data-context="false"><a href="//imgur.com/a/UXcKA7t"></a></div><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+<blockquote width="100%" height="auto" class="imgur-embed-pub" lang="en" data-id="a/UXcKA7t" data-context="false"><a href="//imgur.com/a/UXcKA7t"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
