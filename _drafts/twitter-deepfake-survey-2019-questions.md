@@ -13,10 +13,10 @@ image: "/uploads/twitter-deepfake-survey-dfblue.png"
 highlight: false
 
 ---
-Twitter [created a survey](https://twitter.com/TwitterSafety/status/1186403736995807232 "Twitter blog post on deepfakes") to test how its users perceive deepfakes and Twitter's responsibility and policies towards it.
+Twitter [created a survey](https://twitter.com/TwitterSafety/status/1186403736995807232 "Twitter blog post on deepfakes") to test how its users perceive deepfakes and Twitter's responsibility and policies towards it. The survey closes on Wednesday, Nov. 27 at 11:59 p.m. GMT.
 
-To take the survey click [here](https://survey.twitterfeedback.com/survey/selfserve/53b/191016?list=3&co=BLOG#? "Deepfake survey").
+To take the survey click [here](https://survey.twitterfeedback.com/survey/selfserve/53b/191016?list=3&co=BLOG#? "Deepfake survey"). 
 
-DFBlue took this survey and recorded the questions in it.
+DFBlue took this survey and recorded the questions in it for future analysis.
 
 <blockquote width="100%" height="auto" class="imgur-embed-pub" lang="en" data-id="a/UXcKA7t" data-context="false"></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
