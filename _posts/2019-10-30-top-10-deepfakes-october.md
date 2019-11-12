@@ -62,9 +62,3 @@ Shamook making us wish this was real!!!
 
 > ## Share your deepfakes
 > If you have made a deepfake and you think we should feature it, [share it with us](https://dfblue.com/#submit-deepfake) and we would be happy to consider it for our next month’s review. We publish them between 28-30th each month, be sure to [submit](https://dfblue.com/#submit-deepfake) it before these dates.
-
------
-
-Follow us on [Twitter](https://twitter.com/dfblue) or [Reddit](https://reddit.com/u/deepfakeblue) to keep up with everything that is going on in the world of deepfakes. We provide publications, tools, and services to further the ethical creation, detection, and awareness of deepfakes and digital forgery.
-
-Think Blue.
