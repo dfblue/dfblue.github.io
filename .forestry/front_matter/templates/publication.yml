@@ -39,5 +39,6 @@ fields:
   description: 'Urls to redirect from if post names / dates have changed (example:
     /pub/2019-07-27-deepfacelab-tutorial/)'
 pages:
-- _posts/2019-11-12-twitter-deepfake-survey-2019-questions.md
+- _posts/dfblue-and-the-harvard-institute-of-quantitative-social-science.md
 - _posts/2019-11-04-make-a-deepfake-recording-custom-face-sets.md
+- _posts/2019-11-12-twitter-deepfake-survey-2019-questions.md
