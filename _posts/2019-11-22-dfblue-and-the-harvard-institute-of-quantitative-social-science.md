@@ -11,7 +11,7 @@ categories:
 - academic
 - deepfakes research
 author: DFBlue
-image: ''
+image: "/uploads/dfblue-harvard-partnership.png"
 highlight: true
 
 ---
