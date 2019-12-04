@@ -12,7 +12,9 @@ categories:
 highlight: false
 
 ---
-Happy Thanksgiving to our deepfake community! We hope you have been away from your screens and with your loved ones this last week. Team DFBlue took a longer holiday break this month-end which resulted in a slight delay for this post. 🙈
+Happy Thanksgiving to our deepfake community! We hope you have been away from your screens and with your loved ones this last week.
+
+Team DFBlue took a longer holiday break this month-end which resulted in a slight delay for this post. 🙈
 
 Let's look at the top 7 Deepfake of this month! It's been a month of POTUS for the deepfake community.
 
@@ -26,19 +28,19 @@ Let's look at the top 7 Deepfake of this month! It's been a month of POTUS for t
 
 ## 3. Trump's making Alberta the 51st state by 22 minutes
 
- {% include youtube.html id="XYkSux1fqXY&t" %}
+{% include youtube.html id="XYkSux1fqXY&t" %}
 
 ## 4. Marty McFly travel to the actual future by Pacto Copernico
 
- {% include youtube.html id="zxV6IFwv8ug" %}
+{% include youtube.html id="zxV6IFwv8ug" %}
 
 ## 5. Donald Trump song by DeepFake Channel
 
- {% include youtube.html id="[buYQVXtQY6I](https://www.youtube.com/watch?v=buYQVXtQY6I)" %}
+{% include youtube.html id="[buYQVXtQY6I](https://www.youtube.com/watch?v=buYQVXtQY6I)" %}
 
 ## 6. Donald Trump's Secret Love Child Donna by The Fakening
 
- {% include youtube.html id="jd0jP3EC0yQ" %}
+{% include youtube.html id="jd0jP3EC0yQ" %}
 
 ## 7. Sister Act by DrFakenstein
 
