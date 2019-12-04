@@ -14,7 +14,7 @@ highlight: false
 ---
 Happy Thanksgiving to our deepfake community! We hope you have been away from your screens and with your loved ones this last week.
 
-Team DFBlue took a longer holiday break this month-end which resulted in a slight delay for this post. 🙈
+Team DFBlue took a longer holiday break this month-end which resulted in a slight delay. 🙈
 
 Let's look at the top 7 Deepfake of this month! It's been a month of POTUS for the deepfake community.
 
