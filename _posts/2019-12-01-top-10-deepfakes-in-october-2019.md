@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Top Deepfakes in November 2019
+title: Top 7 Deepfakes in November 2019
 author: DFBlue
 image: https://imgur.com/nriOkUN.png
 date: 2019-12-01 10:30:00 -0800
