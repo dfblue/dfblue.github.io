@@ -57,3 +57,5 @@ Let's look at the top 7 Deepfake of this month! It's been a month of POTUS for t
 > ## Share your deepfakes
 >
 > If you have made a deepfake and you think we should feature it, [share it with us](https://dfblue.com/#submit-deepfake) and we would be happy to consider it for our next month’s review. We publish them between 28-30th each month, be sure to [submit](https://dfblue.com/#submit-deepfake) it before these dates.
+>
+> Happy Holidays!
