@@ -12,7 +12,7 @@ categories:
 highlight: false
 
 ---
-As 2019 draws to a close, it’s worth taking a look back at the monumental progress that has been made in the deepfake space for DFBlue. This is the year that truly put the deepfake technology on the map and showed the world the true power of A.I. and Neural Networks.
+As 2019 draws to a close, it’s worth taking a look back at the progress that has been made in the deepfake space for DFBlue. This is the year that truly put the deepfake technology on the map and showed the world the true power of A.I. and Neural Networks.
 
 To mark the end of 2019 and the beginning of a whole new decade, DFBlue launched a 2020 teaser showcasing the use of deepfakes for adverting and the entertainment industry.
 
