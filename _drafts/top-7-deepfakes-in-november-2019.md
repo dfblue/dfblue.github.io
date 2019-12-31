@@ -1,61 +1,35 @@
 ---
 layout: post
-title: Top 7 Deepfakes in November 2019
+title: '2019: The Year of Deepfakes'
 author: DFBlue
-image: https://imgur.com/nriOkUN.png
-date: 2019-12-01 10:30:00 -0800
+image: https://imgur.com/1vI7NZY.png
+date: 2019-12-31 10:30:00 -0800
 categories:
 - deepfake
-- faceswap
-- deepfacelab
-- trump deepfake
+- DFBlue
+- Harvard
+- French Consulate
 highlight: false
 
 ---
-Happy Thanksgiving to our deepfake community! We hope you have been away from your screens and with your loved ones this last week.
+As 2019 draws to a close, it’s worth taking a look back at the monumental progress that has been made in the deepfake space for DFBlue. This is the year that truly put the deepfake technology on the map and showed the world the true power of A.I. and Neural Networks.
 
-Team DFBlue took a longer holiday break this month-end which resulted in a slight delay. 🙈
+To mark the end of 2019 and the beginning of a whole new decade, DFBlue launched a 2020 teaser showcasing the use of deepfakes for adverting and the entertainment industry.
 
-Let's look at the top 7 Deepfake of this month! It's been a month of POTUS for the deepfake community.
+{% include youtube.html id="[MUqP-Zlpa8s](https://youtu.be/MUqP-Zlpa8s)" %}
 
-## 1. No Country For Old Actors by Ctrl Shift Face
+The French Consulate in New York hosted a Conference on fake news, deep fakes, foreign interference with Ambassador for Digital Affairs Henri Verdier, Chief innovation Officer at Graphika Camille Francois, Vice News reporter David Uberti and DFBlue's Co-Founder Sid Gandhi. DFBlue's participation at this high profile event showed us that the international governments are serious about the negative effects of deepfakes and fake news. It speaks of their dedication towards combating fake news and digital forgery to preserve our digital space. 
 
-{% include youtube.html id="Ow_uufCxm1A" %}
+![](/uploads/IMG_4580.jpg "Sid Gandhi at the French Consulate in NY")
 
-## 2. New Joker with Pencil Trick—Joaquin Phoenix by Finergot Movies
+This year DFBlue announced a partnership with **Harvard University** in a research study on the psychological effects of political deepfakes ahead of the upcoming 2020 U.S. elections. This research is ongoing and will be underway through 2020. Learn more about this partnership [here](https://pub.dfblue.com/pub/2019-11-22-dfblue-and-the-harvard-institute-of-quantitative-social-science).
 
-{% include youtube.html id="LOXkW2gy6xw" %}
+DFBlue also hosted the [first-ever event on Deepfakes](https://pub.dfblue.com/pub/2019-10-25-deepfake-fake-news-or-powerful-tool) in New York City called “Deepfake — Fake News or Powerful tool?” which was a discussion on what’s possible with Deepfake technology and how it can be used ethically. Our next event is happening in San Francisco soon. You can receive updates about our upcoming events [here](ww.dfblue.com/#sign-up)!
 
-## 3. Trump's making Alberta the 51st state by 22 minutes
+![](/uploads/nyc-event.jpg "DFBlue's event in NY")
 
-{% include youtube.html id="XYkSux1fqXY&t" %}
+## Happy Holidays from DFBlue 🤓
 
-## 4. Marty McFly travel to the actual future by Pacto Copernico
-
-{% include youtube.html id="zxV6IFwv8ug" %}
-
-## 5. Donald Trump song by DeepFake Channel
-
-{% include youtube.html id="[buYQVXtQY6I](https://www.youtube.com/watch?v=buYQVXtQY6I)" %}
-
-## 6. Donald Trump's Secret Love Child Donna by The Fakening
-
-{% include youtube.html id="jd0jP3EC0yQ" %}
-
-## 7. Sister Act by DrFakenstein
-
-{% include youtube.html id="c3cd-0vCyMQ" %}
+![](https://media.giphy.com/media/ZW7GZxa37cuZi/source.gif)
 
 ***
-
-## Before you go, check out this Obama deepfake by DFBlue 🤓
-
-{% include youtube.html id="nIU_DvjICnY" %}
-
-***
-
-> ## Share your deepfakes
->
-> If you have made a deepfake and you think we should feature it, [share it with us](https://dfblue.com/#submit-deepfake) and we would be happy to consider it for our next month’s review. We publish them between 28-30th each month, be sure to [submit](https://dfblue.com/#submit-deepfake) it before these dates.
->
-> Happy Holidays!
