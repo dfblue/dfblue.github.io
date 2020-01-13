@@ -31,4 +31,4 @@ Using state of the art computer vision and AI techniques, DFBlue creates deepfak
 
 Soubhik Barari (sbarari 📧 g.harvard.edu)
 
-[DFBlue](mailto:r@dfblue.com?&cc=s@dfblue.com&subject=Regarding%20Harvard%20Research%20Study "DFBlue email")
+Sid & Rashi @ [DFBlue](mailto:r@dfblue.com?&cc=s@dfblue.com&subject=Regarding%20Harvard%20Research%20Study "DFBlue email")
