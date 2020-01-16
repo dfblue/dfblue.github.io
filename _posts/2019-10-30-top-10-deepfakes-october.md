@@ -1,13 +1,17 @@
 ---
 layout: post
-title:  "Top 10 Deepfakes in October 2019"
-author: "DFBlue"
+title: Top 10 Deepfakes in October 2019
+author: DFBlue
 image: https://imgur.com/hEBbQZp.jpg
-date:   2019-10-30
-categories: [deepfake, obama deepfake, faceswap, deepfacelab]
-highlight: true
----
+date: 2019-10-30
+categories:
+- deepfake
+- obama deepfake
+- faceswap
+- deepfacelab
+highlight: false
 
+---
 Halloween is almost here and we wanted to see deepfakes take a spookier turn this month. 🎃
 We saw a lot of new content in the deepfake space as well as our usual suspects (Barak Obama and Donald Trump). With iperov launching the new [SAEHD model](https://pub.dfblue.com/pub/2019-10-25-deepfacelab-tutorial) for DeepFaceLab, the quality of deepfakes has improved 10x!
 
