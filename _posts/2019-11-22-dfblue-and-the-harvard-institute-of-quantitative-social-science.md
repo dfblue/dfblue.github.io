@@ -2,7 +2,7 @@
 layout: post
 redirect_from: []
 title: DFBlue and the Harvard Institute of Quantitative Social Science
-date: 2019-11-22 00:00:00 -0800
+date: 2019-11-22T00:00:00.000-08:00
 excerpt: DFBlue announces a partnership with Harvard Institute of Quantitative Social
   Sciences in a research study on the psychological effects of political deepfakes
   ahead of the upcoming 2020 U.S. elections.
@@ -12,7 +12,7 @@ categories:
 - deepfakes research
 author: DFBlue
 image: "/uploads/dfblue-harvard-partnership.png"
-highlight: true
+highlight: false
 
 ---
 DFBlue announces a partnership with Harvard University in a research study on the psychological effects of political deepfakes ahead of the upcoming 2020 U.S. elections.
