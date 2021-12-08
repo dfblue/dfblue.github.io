@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The DeepFaceLab Tutorial (always up-to-date)
+title: The DeepFaceLab Tutorial
 author: DFBlue
 image: https://imgur.com/GKfH1jT.jpg
 date: 2019-10-25
@@ -16,6 +16,10 @@ excerpt: We will use DeepFaceLab to create the deepfakes. Another software, Face
   is also available, and will have a separate tutorial.
 
 ---
+# 🔥👉 New: Create NFTs from your Instagram posts and sell them: [https://cryptogram.is/](https://cryptogram.is/ "https://cryptogram.is/")
+
+***
+
 > 👀 Update 10/25/19: Added instructions for the new [SAEHD model](#training) (amazing)
 
 > 👽 Update 9/24/19: New post for [AVATAR mode]({% post_url 2019-09-24-deepfacelab-avatar-tutorial %}){:target="_blank"}
@@ -185,11 +189,9 @@ Run `6) train SAEHD`
 
 Before converting, you can make a timelapse of the preview history (if you saved it during training). Do this only if you understand what `ffmpeg` is.
 
-    
     > cd \workspace\model\SAEHD_history
     
     > ffmpeg -r 120 -f image2 -s 1280x720 -i %05d0.jpg -vcodec libx264 -crf 25 -pix_fmt yuv420p history.mp4
-    
 
 ## Convert
 
