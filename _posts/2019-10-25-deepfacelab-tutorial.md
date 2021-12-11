@@ -16,7 +16,7 @@ excerpt: We will use DeepFaceLab to create the deepfakes. Another software, Face
   is also available, and will have a separate tutorial.
 
 ---
-# 🔥👉 New: Create NFTs from your Instagram posts and sell them: [https://cryptogram.is/](https://cryptogram.is/?ref=dfblue "https://cryptogram.is/")
+# 🔥👉 New: Create NFTs from your Instagram posts and sell them: [https://cryptogram.is/](https://cryptogram.is/?utm_source=dfblue "https://cryptogram.is/")
 
 ***
 
